@@ -11,13 +11,13 @@
 
 ### Portfolio
 <p align="start">
-  <img  src="">
+  <img  src="https://github.com/PedrohvFernandes/portfolio-dev-alura/blob/main/screenshot/Portofolio.png">
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
 #### Caso queria ver o portfolio(https://codepen.io): https://codepen.io/pedrohvfernandes/pen/podBVeL
 
-#### Hospedagem github: 
+#### Hospedagem Vercel: 
 
 ## Tecnologias:
 - HTML
