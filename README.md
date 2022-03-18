@@ -17,7 +17,7 @@
 
 #### Caso queria ver o portfolio(https://codepen.io): https://codepen.io/pedrohvfernandes/pen/podBVeL
 
-#### Hospedagem Vercel: 
+#### Hospedagem Vercel: https://portfoliodevalura.vercel.app
 
 ## Tecnologias:
 - HTML
