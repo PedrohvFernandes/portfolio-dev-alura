@@ -34,7 +34,6 @@ body {
 
 .perfil {
   display: flex;
-  align-items: center;
   animation: animaTitle 1.5s ease 1s normal forwards;
   opacity: 0;
   transform: translateX(-200px);
@@ -80,6 +79,7 @@ body {
 .icones {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   width: 150px;
   margin-left: 10px;
   animation: animaTitle 1.5s ease 1.5s normal forwards;
@@ -279,8 +279,58 @@ body {
     color: #000e1f;
   }
 }
-@media (max-width: 924px) {
+@media (max-width: 999px) {
   .icones {
     flex-direction: column;
   }
+}
+
+@media (max-width: 888px){
+  .container{
+    width: auto;
+    margin: 30px;
+  }
+  .cabecalho{
+    display: flex;
+    flex-direction: column;
+  }
+  .perfil-foto{
+    display: none;
+  }
+  .perfil{
+    flex-direction: column;
+  }
+  .titulo{
+    margin: 0;
+  }
+  .icones {
+    flex-direction: row;
+  
+  }
+
+  .perfil .titulo p{
+    font-size: 15px;
+  }
+
+  .perfil .titulo h1{
+    font-size: 25px;
+  }
+
+  .icones{
+    margin-left: 0;
+    margin-right: 10px;
+  }
+  .tema button {
+    margin-left: 0;
+    }
+
+
+  .projetos ul, .projetos li{
+    width: auto;
+  }
+  .projetos {
+    display: flex;
+  }
+
+
 }
