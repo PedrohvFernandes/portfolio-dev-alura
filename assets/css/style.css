@@ -62,7 +62,7 @@ body {
 
 .perfil-foto {
   box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
-  border-radius: 460px;
+  border-radius: 46rem;
   max-width: 13rem;
   max-height: 13rem;
   transition: all 0.5s ease;
@@ -225,11 +225,11 @@ body {
 }
 
 .projetos a {
-  font-size: 20px;
+  font-size: 2rem;
 }
 
 .projetos p {
-  font-size: 15px;
+  font-size: 1.5rem;
 }
 
 @keyframes animaTitle {
@@ -338,7 +338,6 @@ body {
 
   .tema{
     text-align: center;
-    height: auto;
   }
 
   .tema button {
@@ -351,6 +350,7 @@ body {
   }
   .projetos {
     display: flex;
+    margin: 1rem;
   }
 }
 
@@ -358,5 +358,14 @@ body {
   .container {
     padding: 2rem;
     margin: 2rem;
+  }
+}
+
+@media (max-width: 280px){
+  .container {
+    padding: 1rem;
+  }
+  .projetos {
+    margin-inline: 0;
   }
 }
